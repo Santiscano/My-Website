@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="icon" type="image/png" href="./imagenes/logo-removebg-preview.png">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+                        <!-- UNICONS ICONOS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
+    <div class="container">
+        <header class="header" id="header">
+          <nav class="nav container">
+              <div class="nav__logo">Santi<span>Dev</span></div>
+
+              <div class="nav__menu" id="nav-menu">
+                  <ul class="nav__list grid">
+                      <li class="nav__item">
+                          <a href="#home" class="nav__link active-link">
+                              <i class="uil uil-estate nav__icon"></i> Home
+                          </a>
+                      </li>
+                      <li class="nav__item">
+                          <a href="#about" class="nav__link">
+                              <i class="uil uil-user nav__icon"></i>About
+                          </a>
+                      </li>
+                      <li class="nav__item">
+                          <a href="#skills" class="nav__link">
+                              <i class="uil uil-file-edit-alt nav__icon"></i>Skills
+                          </a>
+                      </li>
+                      <li class="nav__item">
+                          <a href="#services" class="nav__link">
+                              <i class="uil uil-briefcase-alt nav__icon"></i>Services
+                          </a>
+                      </li>
+                      <li class="nav__item">
+                          <a href="#portfolio" class="nav__link">
+                              <i class="uil uil-scenery nav__icon"></i>Portfolio
+                          </a>
+                      </li>
+                      <li class="nav__item">
+                          <a href="#contact" class="nav__link">
+                              <i class="uil uil-message nav__icon"></i>Contact Me
+                          </a>
+                      </li>
+                  </ul>
+                  <i class="uil uil-times nav__close" id="nav-close"></i>
+              </div>
+
+              <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+                  <div class="nav__toggle" id="nav-toggle">
+                      <i class="uil uil-apps nav__icon"></i>
+                  </div>
+              </div>
+          </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+              <div class="home__content grid">
+                <div class="home__social">
+                  <a href="https://www.linkedin.com/in/santiago-sierra-cano/" target="_blank" class="home__social-icon">
+                    <i class="uil uil-linkedin-alt"></i>
+                  </a>
+                  <a href="https://github.com/Santiscano" target="_blank" class="home__social-icon">
+                    <i class="uil uil-github"></i>
+                  </a>
+                  <a href="santiscano@gmail.com" target="_blank" class="home__social-icon">
+                    <i class="uil uil-envelope-check"></i>
+                  </a>
+                </div>
+
+                <div class="home__img">
+                  <img class="home__blob-img" src="./imagenes/santi-sin-fondo.png" alt="my photo">
+                </div>
+                <div class="home__data">
+                  <h1 class="home__title">Hi! I am</h1>
+                  <span class="auto home__subtitle">Santiago Sierra C.</span>
+                  <p class="home__description">
+                    Experience in web desing and development knowledge, producing quality work.
+                  </p>
+                  <button class="button button--flex">
+                    Contact Me <i class="uil uil-message button__icon"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="home__scroll">
+                <a href="#about" class="home__scroll-button button--flex">
+                  <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                  <span class="home__scroll-name">Scroll down</span>
+                  <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                </a>
+              </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+
+            <div class="about__container container grid">
+              <img src="./imagenes/santi.jpg" alt="" class="about__img">
+
+              <div class="about__data">
+                <p class="about__description">I am able to develop web pages on the Front End side with HTML, CSS, JavaScript, using frameworks like react, bootstrap y tailwind and version managers Git & GitHub.</p>
+              
+                <div class="about__info">
+                  <div>
+                    <span class="about__info-title">06+</span>
+                    <span class="about__info-name">Month <br> experience </span>
+                  </div>
+  
+                  <div>
+                    <span class="about__info-title">03</span>
+                    <span class="about__info-name">Completed <br> Proyect </span>
+                  </div>
+  
+                  <div>
+                    <span class="about__info-title">01</span>
+                    <span class="about__info-name">Companies <br> Worked </span>
+                  </div>
+                </div>
+                <div class="about__buttons">
+                  <a download="" href="" class="button button--flex">
+                    Download CV<i class="uil uil-file-download button__icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+          <h2 class="section__title">Skills</h2>
+          <span class="section__subtitle">My technical level</span>
+
+          <div class="skills__container container grid">
+              <!-- skill 1 -->
+              <div class="skills__content skills_open">
+                <div class="skills__header">
+                  <i class="uil uil-brackets-curly skills__icon"></i>
+
+                  <div>
+                    <h1 class="skills__titles">Front End Development</h1>
+                    <span class="skills__subtitle">More than 6 month</span>
+                  </div>
+
+                  <i class="uil uil-angle-down skills_arrow"></i>
+                </div>
+
+                <div class="skills__list grid">
+                  <!-- HTML -->
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">HTML</h3>
+                      <span class="skills_number">90%</span>
+                    </div>
+                    <div class="skills_bar">
+                      <span class="skills__percentage skills__html"></span>
+                    </div>
+                  </div>
+                  <!-- CSS -->
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">CSS</h3>
+                      <span class="skills_number">80%</span>
+                    </div>
+                    <div class="skills_bar">
+                      <span class="skills__percentage skills__css"></span>
+                    </div>
+                  </div>
+                  <!-- JAVASCRIPT -->
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">JavaScript</h3>
+                      <span class="skills_number">65%</span>
+                    </div>
+                    <div class="skills_bar">
+                      <span class="skills__percentage skills__js"></span>
+                    </div>
+                  </div>
+                  <!-- REACT -->
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">React</h3>
+                      <span class="skills_number">65%</span>
+                    </div>
+                    <div class="skills_bar">
+                      <span class="skills__percentage skills__react"></span>
+                    </div>
+                  </div>
+                  <!-- Angular -->
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">Angular</h3>
+                      <span class="skills_number">15%</span>
+                    </div>
+                    <div class="skills_bar">
+                      <span class="skills__percentage skills__angular"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- skill 2 -->
+              <div class="skills__content skills_close">
+                <!-- titulo backend -->
+                <div class="skills__header">
+                  <i class="uil uil-server-network skills__icon"></i>
+
+                  <div>
+                    <h1 class="skills__titles">Back End Development</h1>
+                    <span class="skills__subtitle">More than 6 month</span>
+                  </div>
+
+                  <i class="uil uil-angle-down skills_arrow"></i>
+                </div>
+
+                <!-- tecnologias -->
+                <div class="skills__list grid">
+                  <!-- PHP -->
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">PHP</h3>
+                      <span class="skills_number">10%</span>
+                    </div>
+                    <div class="skills_bar">
+                      <span class="skills__percentage skills__php"></span>
+                    </div>
+                  </div>
+                  <!-- NODE.JS -->
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">NODE.JS</h3>
+                      <span class="skills_number">10%</span>
+                    </div>
+                    <div class="skills_bar">
+                      <span class="skills__percentage skills__node"></span>
+                    </div>
+                  </div>
+
+                  <!-- FIREBASE -->
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">FireBase</h3>
+                      <span class="skills_number">10%</span>
+                    </div>
+                    <div class="skills_bar">
+                      <span class="skills__percentage skills__firebase"></span>
+                    </div>
+                  </div>
+
+                  <!-- PYTHON -->
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">Python</h3>
+                      <span class="skills_number">0%</span>
+                    </div>
+                    <div class="skills_bar">
+                      <span class="skills__percentage skills__python"></span>
+                    </div>
+                  </div>
+                  <!-- SOLIDITY -->
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">Solidity</h3>
+                      <span class="skills_number">15%</span>
+                    </div>
+                    <div class="skills_bar">
+                      <span class="skills__percentage skills__solidity"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section">
+          <h2 class="section__title">Qualification</h2>
+          <span class="section__subtitle">My Personal Journey</span>
+
+          <div class="qualification__container container">
+            <div class="qualification__tabs">
+              <div class="qualification__button button--flex qualification__active" data-target="#education">
+                <i class="uil uil-graduation-cap qualification__icon"></i>
+                Education
+              </div>
+
+              <div class="qualification__button button--flex" data-target="#work">
+                <i class="uil uil-briefcase-alt qualification__icon"></i>
+                Work
+              </div>
+            </div>
+
+            <div class="qualification__sections">
+              <!-- =======QUALIFICATION CONTENT 1 ====== -->
+              <div class="qualification__content qualification__active" data-content id="education">
+                <!-- =======QUALIFICATION 1 ====== -->
+                <div class="qualification__data">
+                  <div>
+                    <h3 class="qualification__title">Web Development</h3>
+                    <span class="qualification__subtitle">Platzi Colombia</span>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      11/2021 - 11/2022
+                    </div>
+                  </div>
+
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+                </div>
+
+                <!-- =======QUALIFICATION 2 ====== -->
+                <div class="qualification__data">
+                  <div></div>
+
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+
+                  <div>
+                    <h3 class="qualification__title">Front End</h3>
+                    <span class="qualification__subtitle">Codigo Facilito - Online</span>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      02/2022 - 02/2023
+                    </div>
+                  </div>
+                </div>
+
+                <!-- =======QUALIFICATION 3 ====== -->
+                <div class="qualification__data">
+                  <div>
+                    <h3 class="qualification__title">Angular</h3>
+                    <span class="qualification__subtitle">Coder House - Online</span>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      9/2022 - 1/2023
+                    </div>
+                  </div>
+
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+                </div>
+
+                <!-- =======QUALIFICATION 4 ====== -->
+                <div class="qualification__data">
+                  <div></div>
+
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+
+                  <div>
+                    <h3 class="qualification__title">Blockchain Solidity</h3>
+                    <span class="qualification__subtitle">Platzi - Udemy </span>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      02/2023 - 02/2024
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- =======QUALIFICATION CONTENT 2 ====== -->
+              <div class="qualification__content" data-content id="work">
+                <!-- =======QUALIFICATION 1 ====== -->
+                <div class="qualification__data">
+                  <div>
+                    <h3 class="qualification__title">ASOGANAN</h3>
+                    <span class="qualification__subtitle">Web Development</span>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      11/2021 - 11/2022
+                    </div>
+                  </div>
+
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+                </div>
+
+                <!-- =======QUALIFICATION 2 ====== -->
+                <div class="qualification__data">
+                  <div></div>
+
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+
+                  <div>
+                    <h3 class="qualification__title">AgriBlock</h3>
+                    <span class="qualification__subtitle">Blockchain Development "Personal Project"</span>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      02/2024 - 02/2030
+                    </div>
+                  </div>
+                </div>
+
+                <!-- =======QUALIFICATION 3 ====== -->
+                <div class="qualification__data">
+                  <div>
+                    <h3 class="qualification__title">XXXXXXXXX</h3>
+                    <span class="qualification__subtitle">Front End Junior "Closely"</span>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      9/2022 - 1/2023
+                    </div>
+                  </div>
+
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What i offer</span>
+
+            <div class="services__container container grid">
+
+              <!-- =====SERVICE 1 ==== -->
+              <div class="services__content">
+                <!-- title -->
+                <div>
+                  <i class="uil uil-camera-plus services__icon"></i>
+                  <h3 class="services__title">Product <br> Photography</h3>
+                </div>
+
+                <!-- button -->
+                <span class="button button--flex button--small button--link services__button">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+
+                <!-- content -->
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">Product <br> Photography</h4>
+                    <i class="uil uil-times services__modal-close"></i>
+
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>We develop the presentation of your Products</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>We desing the artistic concept for sales</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>We create an engaging seller and user experience</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- =====SERVICE 2 ==== -->
+              <div class="services__content">
+                <!-- title -->
+                <div>
+                  <i class="uil uil-arrow services__icon"></i>
+                  <h3 class="services__title">Frontend <br> Development</h3>
+                </div>
+
+                <!-- button -->
+                <span class="button button--flex button--small button--link services__button">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+
+                <!-- content -->
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">Frontend <br> Development</h4>
+                    <i class="uil uil-times services__modal-close"></i>
+
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Desing your Website</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Create a databases for you users</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Design digital solutions for your company needs</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <!-- titulos -->
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
+        
+            <!-- contenedor contenido -->
+            <div class="portfolio__container container ">
+              <div class="">
+                <!-- ===== proyecto 1 -->
+                <div class="portfolio__content grid ">
+                  <img src="./imagenes/Task-list.jpg" alt="" class="portfolio__img">
+
+                  <div class="portfolio__data">
+                    <h3 class="portfolio__title">Tasks List</h3>
+                    <p class="portfolio__description">App for creating and managing tasks</p>
+                    <a href="https://santiscano.github.io/Admin-Task/" target="_blank" class="button button--flex button--small portfolio__button">
+                      Demo
+                      <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                  </div>
+                </div>
+                  <!-- ===== proyecto 2 -->
+                <div class="portfolio__content grid">
+                  <img src="./imagenes/platziconf.jpg" alt="" class="portfolio__img">
+
+                  <div class="portfolio__data">
+                    <h3 class="portfolio__title">Platzi Conf</h3>
+                    <p class="portfolio__description">Promotional website for the platzi conference</p>
+                    <a href="https://platzi-conf.netlify.app/" target="_blank" class="button button--flex button--small portfolio__button">
+                      Demo
+                      <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                  </div>
+  
+                </div>
+                  <!-- ===== proyecto 3 -->
+                <div class="portfolio__content grid">
+                  <img src="./imagenes/rick-morty.jpg" alt="" class="portfolio__img">
+
+                  <div class="portfolio__data">
+                    <h3 class="portfolio__title">Rick & Morty</h3>
+                    <p class="portfolio__description">Web consumption API REST </p>
+                    <a href="https://santiscano.github.io/Admin-Task/" target="_blank" class="button button--flex button--small portfolio__button">
+                      Demo
+                      <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                  </div>
+  
+                </div>
+              </div>
+              
+            </div>
+
+        </section>
+
+        <!--==================== PROJECT IN MIND ====================-->
+        <!-- <section class="project section">
+
+        </section> -->
+
+        <!--==================== TESTIMONIAL ====================-->
+        <!-- <section class="testimonial section">
+            
+        </section> -->
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+          <!-- titles -->
+          <h2 class="section__title">Contact Message</h2>
+          <span class="section__subtitle">Get In touch</span>
+
+          <!-- contenido -->
+          <div class="contact__container container grid">
+            <div>
+              <!-- telefono -->
+              <div class="contact__information">
+                <a href="santiscano@gmail.com" target="_blank" class="home__social-icon">
+                  <i class="uil uil-phone-alt contact__icon"></i>
+                </a>
+
+                <div>
+                  <h3 class="contact__title">Call Me</h3>
+                  <span class="contact__subtitle">+57 3117137084</span>
+                </div>
+              </div>
+
+              <!-- email -->
+              <div class="contact__information">
+                <a href="santiscano@gmail.com" target="_blank" class="home__social-icon">
+                  <i class="uil uil-envelope-check contact__icon"></i>
+                </a>
+
+                <div>
+                  <h3 class="contact__title">Email</h3>
+                  <span class="contact__subtitle">santiscano@gmail.com</span>
+                </div>
+              </div>
+
+              <!-- redes -->
+              <div class="contact__information">
+                <a href="https://www.linkedin.com/in/santiago-sierra-cano/" target="_blank" class="home__social-icon">
+                  <i class="uil uil-linkedin-alt contact__icon"></i>
+                </a>
+
+                <div>
+                  <h3 class="contact__title">Linkedin</h3>
+                  <span class="contact__subtitle">
+                    https://www.linkedin.com/in/santiago-sierra-cano/
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <form action="" class="contact__form grid">
+              <!-- primeros 2 inputs -->
+              <div class="contact__inputs grid">
+                <div class="contact__content">
+                  <label for="" class="contact__label">Name</label>
+                  <input type="text" class="contact__input">
+                </div>
+                <div class="contact__content">
+                  <label for="" class="contact__label">Email</label>
+                  <input type="email" class="contact__input">
+                </div>
+              </div>
+
+              <div class="contact__content">
+                <label for="" class="contact__label">Project</label>
+                <input type="text" class="contact__input">
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">Message</label>
+                <textarea name="" id="" cols="0" rows="0" class="contact__input"></textarea>
+              </div>
+              <!-- button  -->
+              <div>
+                <a href="" class="button button--flex">
+                  Send Message
+                  <i class="uil uil-message button__icon"></i>
+                </a>
+              </div>
+
+            </form>
+
+          </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer_title">Santiago Sierra C.</h1>
+            <span class="footer__subtitle">Frontend Developer</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#services" class="footer__link">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a href="https://www.linkedin.com/in/santiago-sierra-cano/" target="_blank" class="footer__social">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a href="https://www.instagram.com/santiagoscano/" target="_blank" class="footer__social">
+              <i class="uil uil-instagram"></i>
+            </a>
+            <a href="https://twitter.com/santiagoscano" target="_blank" class="footer__social">
+              <i class="uil uil-twitter-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">&#169; SantiDev. All right reserved</p>
+      </div>
+    </footer>
+    
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+<!-- 
+      <div class="main flex">
+        <div class="main-one">
+          <h1>Hi! I am</h1>
+          <span class="auto">Santiago Sierra C.</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+            molestiae impedit amet repellat soluta nisi quaerat, temporibus
+            consequuntur. Necessitatibus, dolorem.
+          </p>
+          <button>Hire Me</button>
+        </div>
+        <div class="main-two">
+          <img src="./imagenes/santi.jpg" alt="" />
+        </div>
+      </div>
+
+      <section class="projects" id="project">
+        <h1>My Awesome <br /><span>Projects</span></h1>
+        <p>
+          Lorem ipsum dolor sicing elit. Molestias officiis veniam reprehenderit
+          minima praesentium provident eos aperiam excepturi doloribus impedit.
+        </p>
+        <button class="button">Download CV</button>
+        <div class="projects-div flex div-1">
+          <img src="./Images/Projects/5.png" alt="" />
+          <h3>Ecommerce Website</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, ex!
+          </p>
+          <button>Live Preview</button>
+        </div>
+        <div class="projects-div flex div-2">
+          <img src="./Images/Projects/6.png" alt="" />
+          <h3>Weather App</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere,
+            debitis.
+          </p>
+          <button>Live Preview</button>
+        </div>
+        <div class="projects-div flex div-3">
+          <img src="./Images/Projects/7.png" alt="" />
+          <h3>Food App</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+            nulla!
+          </p>
+          <button>Live Preview</button>
+        </div>
+      </section>
+      <br /><br />
+
+      <section class="about flex" id="about">
+        <div class="about-one">
+          <h1>About me</h1>
+          <span>Santiago Sierra Cano.</span>
+          <p>
+            Lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Praesentium nemo quae deserunt aliquam expedita tempore! Laudantium,
+            nobis. Commodi, quod ad. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Illum iusto sequi dolores nulla quibusdam
+            architecto porro officiis, delectus tenetur neque? Quasi ex pariatur
+            modi laudantium ipsam officia numquam corrupti, inventore sequi
+            consequatur cum ad ducimus aliquid, necessitatibus voluptas. Autem,
+            sint. ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            ore.
+          </p>
+          <div class="btns">
+            <button>Download CV</button>
+            <button>Contact Me</button>
+          </div>
+        </div>
+        <div class="about-two">
+          <img src="./Images/About/1.png" alt="" />
+        </div>
+      </section>
+      <br /><br /><br />
+
+      <section class="contact" id="contact">
+        <h1>Let Us <span>Talk!</span></h1>
+        <div class="box flex">
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Name.." />
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email.." />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="60"
+            rows="5"
+            placeholder="Enter your Message here...."
+          ></textarea>
+          <div>
+            <input type="submit" class="send" value="Send" />
+          </div>
+        </div>
+      </section>
+      <footer class="flex" id="footer">
+        <div class="copy">@copywrite 2025 Shero.</div>
+        <div class="social">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-solid fa-phone"></i>
+        </div>
+      </footer>
+    </div>
+  -->
+    <!-- mi javascript -->
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- muestra nuevos textos -->
+    <script>
+      var typed = new Typed(".auto", {
+        strings: ["Santiago Sierra Cano.", "Web Development","Front End Junior"],
+        typeSpeed: 60,
+        backSpeed: 70,
+        loop: true,
+      });
+    </script>
+    
+  </body>
+</html>

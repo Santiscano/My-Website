@@ -1,0 +1,22 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "mi web personal profesional",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santiscano/My-Website.git"
+  },
+  "author": "santiago sierra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Santiscano/My-Website/issues"
+  },
+  "homepage": "https://github.com/Santiscano/My-Website#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}
