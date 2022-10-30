@@ -676,6 +676,9 @@
 .portfolio__container{
     overflow:initial;
 }
+.portfolio__grid{
+    display: grid;
+}
 .portfolio__content{
     margin-top: 3.3rem;
     padding: 0 1.5rem;
