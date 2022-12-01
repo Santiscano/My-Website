@@ -492,22 +492,35 @@
     width: 80%;
 }
 .skills__js{
-    width: 65%;
+    width: 75%;
+}
+.skills__ts{
+    width: 75%;
 }
 .skills__react{
-    width: 65%;
+    width: 75%;
+}
+.skills__next{
+    width: 75%;
 }
 .skills__angular{
-    width: 15%;
+    width: 20%;
+}
+/* backend */
+.skills__node{
+    width: 70%;
+}
+.skills__mysql{
+    width: 70%;
+}
+.skills__mongodb{
+    width: 70%;
 }
 .skills__php{
-    width: 10%;
-}
-.skills__node{
-    width: 10%;
+    width: 40%;
 }
 .skills__firebase{
-    width: 10%;
+    width: 50%;
 }
 .skills__python{
     width: 0%;
