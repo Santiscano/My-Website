@@ -504,7 +504,7 @@
     width: 75%;
 }
 .skills__angular{
-    width: 20%;
+    width: 60%;
 }
 /* backend */
 .skills__node{
@@ -1066,7 +1066,7 @@
         transform: translateX(-6rem);
     }
     .services__container{
-        grid-template-columns: repeat(2, 238px);
+        grid-template-columns: repeat(3, 238px);
     }
     .portfolio__content{
         column-gap: 5rem;
