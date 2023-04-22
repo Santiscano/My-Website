@@ -691,6 +691,8 @@
 }
 .portfolio__grid{
     display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* width: 95vw; */
 }
 .portfolio__content{
     margin-top: 3.3rem;
